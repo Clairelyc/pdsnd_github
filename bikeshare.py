@@ -238,7 +238,7 @@ def main():
         df = load_data(city, month, day)
 
         # Display 5 rows of data at a time depending on user input
-        display = input ('\nThanks for your patience! The data is filtered according to your selection: City - {}, Month - {}, Day of Week - {}.\n\nWould you like to see the raw data first? Type yes or no:  '.format(city,month,day))
+        display = input ('\nThanks for your patience! The data is filtered according to your selection: City - {}, Month - {}, Day of Week - {}.\n\nThe program will provide you with the following statistics:\n\n1. The most frequent time of travel in terms of month, weekday and hour of the day.\n2. The most popular start and end stations and trips.\n3. The total and average of all the trip durations.\n4. The user statistics.\n\nWould you like to see the raw data first? Type yes or no:  '.format(city,month,day))
         display = display.title()
         i = 0 # This is row counter for displaying data
         print()
