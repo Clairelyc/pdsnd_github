@@ -2,7 +2,7 @@
 10/16/2018
 
 ### Project Title
-Bikeshare 
+Bikeshare Data Explore
 
 ### Description
 It's an interactive program for users to explore the bikeshare data from: Chicago, New York, and Washington 
