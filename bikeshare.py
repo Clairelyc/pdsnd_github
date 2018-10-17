@@ -11,6 +11,7 @@ MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
 print()
 print('Hello! Let\'s explore some US bikeshare data!')
 
+# Interactive function to get user-defined filters 
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
