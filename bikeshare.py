@@ -21,7 +21,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     # Get user input for city
-    city = input('\nWould you like to see data for Chicago, New York, or Washington? (Not case-sensitive): ')
+    city = input('\nWould you like to see data for Chicago, New York, or Washington? Please specify by typing the city name (Not case-sensitive): ')
     city = city.title() # Capitalize first letter of each word
     month = [] # Month will be determined by user selection
     day = [] # day will be determined by user selection
